@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- net48: Microsoft.Jet.OLEDB.4.0 requires 32-bit / .NET Framework -->
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Virinco.WATS.Converter.Chroma.Importer</AssemblyName>
+    <RootNamespace>Virinco.WATS.Converter.Chroma.Importer</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <Version>1.0.0</Version>
+    <!-- TODO: Refactor to a ConverterHostPlugin when Jet.OLEDB replacement is evaluated -->
+  </PropertyGroup>
+
+</Project>
+
